@@ -1,21 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".Ejercicio1">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/valora"
+        android:layout_width="330dp"
         android:layout_height="wrap_content"
-        android:text="Ejercicio 1"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:ems="10"
+        android:hint="Ingrese valor de A"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/valorb"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:ems="10"
+        android:hint="Ingrese valor de B"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/valorc"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:ems="10"
+        android:hint="Ingrese valor de C"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btncalcular"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/valorx1"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35px"
+        android:layout_marginBottom="25px"
+        android:text="X1 = "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/valorx2"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="35px"
+        android:text="X2 = "
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/btnVolver1"
@@ -29,4 +79,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.953" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
