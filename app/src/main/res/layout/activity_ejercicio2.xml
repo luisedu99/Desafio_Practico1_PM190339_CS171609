@@ -1,21 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lei"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:paddingTop="100px"
     tools:context=".Ejercicio2">
 
-    <TextView
-        android:id="@+id/textView3"
+    <EditText
+        android:id="@+id/valor_cantidad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ejercicio 2"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:ems="10"
+        android:hint="Cantidad de canditatos"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <Button
+        android:id="@+id/btn_iniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:text="Iniciar votación"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <EditText
+        android:id="@+id/valor_secuencia"
+        android:layout_width="343dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:ems="10"
+        android:hint="Secuencia de votos (1,2,1,3,3,4,2, ...)"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <Button
+        android:id="@+id/btn_votar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:text="Votar"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/text_resultados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:layout_marginBottom="20px"
+        android:text="TextView"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="442dp"
+        tools:text="HOLAAA" />
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:text="Reiniciar" />
 
     <Button
         android:id="@+id/btnVolver2"
@@ -29,4 +90,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.954" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
