@@ -58,4 +58,20 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btnEntrar" />
 
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_logotipo" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
