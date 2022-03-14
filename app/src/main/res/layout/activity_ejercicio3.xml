@@ -55,7 +55,8 @@
                         android:ems="10"
                         android:hint="Nombre"
                         android:inputType="textPersonName"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:drawableLeft="@drawable/ic_text"/>
 
                     <EditText
                         android:id="@+id/txtCargo1"
@@ -65,7 +66,8 @@
                         android:ems="10"
                         android:hint="Cargo"
                         android:inputType="textPersonName"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:drawableLeft="@drawable/ic_text"/>
 
                     <EditText
                         android:id="@+id/txtHoras1"
@@ -75,7 +77,8 @@
                         android:ems="10"
                         android:hint="Horas de trabajo"
                         android:inputType="textPersonName"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:drawableLeft="@drawable/ic_num"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -91,7 +94,8 @@
                         android:ems="10"
                         android:hint="Nombre"
                         android:inputType="textPersonName"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:drawableLeft="@drawable/ic_text"/>
 
                     <EditText
                         android:id="@+id/txtCargo2"
@@ -101,7 +105,8 @@
                         android:ems="10"
                         android:hint="Cargo"
                         android:inputType="textPersonName"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:drawableLeft="@drawable/ic_text"/>
 
                     <EditText
                         android:id="@+id/txtHoras2"
@@ -111,7 +116,8 @@
                         android:ems="10"
                         android:hint="Horas de trabajo"
                         android:inputType="textPersonName"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:drawableLeft="@drawable/ic_num"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -127,7 +133,8 @@
                         android:ems="10"
                         android:hint="Nombre"
                         android:inputType="textPersonName"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:drawableLeft="@drawable/ic_text"/>
 
                     <EditText
                         android:id="@+id/txtCargo3"
@@ -137,7 +144,8 @@
                         android:ems="10"
                         android:hint="Cargo"
                         android:inputType="textPersonName"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:drawableLeft="@drawable/ic_text"/>
 
                     <EditText
                         android:id="@+id/txtHoras3"
@@ -147,7 +155,8 @@
                         android:ems="10"
                         android:hint="Horas de trabajo"
                         android:inputType="textPersonName"
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:drawableLeft="@drawable/ic_num"/>
                 </LinearLayout>
 
                 <Button
