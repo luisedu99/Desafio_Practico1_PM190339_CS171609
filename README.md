@@ -8,5 +8,4 @@ Para ingresar a los ejercicios PRIMERO DEBE DE REGISTRAR UN USUARIO EN LA APP Y 
 
 Link del repositorio del Reporte.
 
-https://drive.google.com/file/d/1Kq6tBitlIv_ZTulI1M7_N65Z8i2xc8jU/view?usp=sharing
-
+https://drive.google.com/file/d/1UJKxJVZ19YbiV6PoJhfp9eWM92YmKmZx/view?usp=sharing
